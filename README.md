@@ -38,15 +38,50 @@ The 16:1 multiplexer is often used in digital systems to select one out of 16 in
 
 
    ![16 mux](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/626b76cb-d667-406f-a095-8c7cfd9e913b)
+   
+   
+   
+# PROCEDURE  
+
+## Step 1
+Create a project with required entities.
+
+## Step 2
+Create a module along with file name for both Multiplexer .
+
+## Step 3
+Run the module and get the respective RTL outputs.
+
+## Step 4
+Create university program(VWF) for getting timing diagram.
+
+## Step 5
+Give the respective inputs for timing diagram and obtain the results.
 
         
-   
+# PROGRAM  
+
+```
+/*
+Program for flipflops  and verify its truth table in quartus using Verilog programming.
+Developed by: JAYABHARATHI.S
+RegisterNumber: 212222100013 
+*/
+
+```
 # LOGIC DIAGRAM
+
+![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/e37d33f2-5be7-4073-8027-62f364fb12d3)
+
 
 # NETLIST DIAGRAM
 
 # TIMING DIAGRAM
 
-# PROGRAM
+# TRUTH TABLE
 
-# REFERENCE
+
+![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/94575ee8-ae67-402d-9c22-a3f204a453a3)
+
+
+# RESULT
