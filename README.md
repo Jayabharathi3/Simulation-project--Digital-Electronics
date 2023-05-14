@@ -18,7 +18,7 @@
   The single-pole multi-position switch is a simple example of a non-electronic circuit of the multiplexer, and it is widely used in many electronic circuits. The multiplexer is used to perform high-speed switching and is constructed by electronic components.
   
   
-             ![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/1194d84e-6da0-464d-88ed-3e999ef33d28)
+  ![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/1194d84e-6da0-464d-88ed-3e999ef33d28)
  
 
         
