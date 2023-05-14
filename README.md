@@ -21,6 +21,8 @@
   ![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/1194d84e-6da0-464d-88ed-3e999ef33d28)
  
 
+   ![16 mux](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/626b76cb-d667-406f-a095-8c7cfd9e913b)
+
         
    
 # LOGIC DIAGRAM
