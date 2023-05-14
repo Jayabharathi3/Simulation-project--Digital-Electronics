@@ -85,3 +85,7 @@ RegisterNumber: 212222100013
 
 
 # RESULT
+
+Thus the implementation of Multiplexer and Demultiplexer are verified
+
+
