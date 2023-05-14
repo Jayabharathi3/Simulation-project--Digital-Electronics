@@ -7,11 +7,11 @@
    – PC, Cyclone II , USB flasher  
    
 ## SOFTWARE REQUIRED:
-     Quartus prime  
+   Quartus prime  
    
 ## THEORY :   
 
-What is a Multiplexer ?
+### What is a Multiplexer ?
     
   The multiplexer is a device that has multiple inputs and single line output. The select lines determine which input is connected to the output, and also increase the amount of data that can be sent over a network within a certain time. It is also called a data selector.
 
