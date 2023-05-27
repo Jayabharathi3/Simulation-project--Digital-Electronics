@@ -68,6 +68,35 @@ Developed by: JAYABHARATHI.S
 RegisterNumber: 212222100013 
 */
 
+
+module muux(i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,s0,s1,s2,s3,y);
+input i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,s0,s1,s2,s3;
+output y;
+wire a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,s0c,s1c,s2c,s3c;
+not(s0c,s0);
+not(s1c,s1);
+not(s2c,s2);
+not(s3c,s3);
+and(a,s0c,s1c,s2c,s3c,i0);
+and(b,s0c,s1c,s2c,s3,i1);
+and(c,s0c,s1c,s2,s3c,i2);
+and(d,s0c,s1c,s2,s3,i3);
+and(e,s0c,s1,s02,s03,i4);
+and(f,s0c,s1,s02,s3,i5);
+and(g,s0c,s1,s2,s3c,i6);
+and(h,s0c,s1,s2,s3,i7);
+and(i,s0,s1c,s2c,s3c,i8);
+and(j,s0,s1c,s2c,s3,i9);
+and(k,s0,s1c,s2,s3c,i10);
+and(l,s0,s1c,s2,s3,i11);
+and(m,s0,s1,s2c,s3c,i12);
+and(n,s0,s1,s2c,s3,i13);
+and(o,s0,s1,s2,s3c,i14);
+and(p,s0,s1,s2,s3,i15);
+or(y,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p);
+endmodule
+
+
 ```
 # LOGIC DIAGRAM
 
@@ -75,6 +104,9 @@ RegisterNumber: 212222100013
 
 
 # NETLIST DIAGRAM
+
+![stprrtl](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/d2dcdbfb-61b2-4fdd-870d-6d5370e4d27c)
+
 
 # TIMING DIAGRAM
 
