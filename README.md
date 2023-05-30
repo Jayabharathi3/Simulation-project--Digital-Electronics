@@ -68,37 +68,37 @@ Developed by: JAYABHARATHI.S
 RegisterNumber: 212222100013 
 */
 
-
-module muux(i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,s0,s1,s2,s3,y);
-input i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,s0,s1,s2,s3;
-output y;
-wire a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,s0c,s1c,s2c,s3c;
-not(s0c,s0);
-not(s1c,s1);
-not(s2c,s2);
-not(s3c,s3);
-and(a,s0c,s1c,s2c,s3c,i0);
-and(b,s0c,s1c,s2c,s3,i1);
-and(c,s0c,s1c,s2,s3c,i2);
-and(d,s0c,s1c,s2,s3,i3);
-and(e,s0c,s1,s02,s03,i4);
-and(f,s0c,s1,s02,s3,i5);
-and(g,s0c,s1,s2,s3c,i6);
-and(h,s0c,s1,s2,s3,i7);
-and(i,s0,s1c,s2c,s3c,i8);
-and(j,s0,s1c,s2c,s3,i9);
-and(k,s0,s1c,s2,s3c,i10);
-and(l,s0,s1c,s2,s3,i11);
-and(m,s0,s1,s2c,s3c,i12);
-and(n,s0,s1,s2c,s3,i13);
-and(o,s0,s1,s2,s3c,i14);
-and(p,s0,s1,s2,s3,i15);
-or(y,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p);
+module muux (out,a,s);
+input[15:0]a;
+input[3:0]s;
+output reg out;
+always@(a,s)
+begin
+case(s)
+4'b0000:out=a[0];
+4'b0001:out=a[1];
+4'b0010:out=a[2];
+4'b0011:out=a[3];
+4'b0100:out=a[4];
+4'b0101:out=a[5];
+4'b0110:out=a[6];
+4'b0111:out=a[7];
+4'b1000:out=a[8];
+4'b1001:out=a[9];
+4'b1010:out=a[10];
+4'b1011:out=a[11];
+4'b1100:out=a[12];
+4'b1101:out=a[13];
+4'b1110:out=a[14];
+4'b1111:out=a[15];
+endcase
+end
 endmodule
 
 
+
 ```
-# LOGIC DIAGRAM
+# LOGIC DIAGRAM  (REFERENCE)
 
 ![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/e37d33f2-5be7-4073-8027-62f364fb12d3)
 
@@ -108,7 +108,15 @@ endmodule
 ![stprrtl](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/d2dcdbfb-61b2-4fdd-870d-6d5370e4d27c)
 
 
+![muxrtl16](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/a9bd3e79-e316-453a-9c03-6d51287f0021)
+
+
 # TIMING DIAGRAM
+
+
+![muxtt16](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/0a63af42-84da-4f5a-87a6-23425154dc3b)
+
+
 
 # TRUTH TABLE
 
@@ -119,5 +127,4 @@ endmodule
 # RESULT
 
 Thus the implementation of  16 : 1 Multiplexer are verified
-
 
