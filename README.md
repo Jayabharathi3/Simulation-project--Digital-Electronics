@@ -24,7 +24,9 @@ A multiplexer has several input lines, usually denoted as "n" lines, and one or 
   
   
   
+ 
 ### 16 to 1 Multiplexer
+
 
    In the 16 to 1 multiplexer, there are total of 16 inputs, i.e., A0, A1, …, A16, 4 selection lines, i.e., S0, S1, S2, and S3 and single output, i.e., Y. On the basis of the combination of inputs that are present at the selection lines S0, S1, and S2, one of these 16 inputs will be connected to the output. The block diagram and the truth table of the 16×1
    
