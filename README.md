@@ -52,22 +52,25 @@ The control or select lines are usually binary and represent a unique combinatio
 Create a project with required entities.
 
 ## Step 2
-Create a module along with file name for both Multiplexer .
+Create a module along with file name for  Multiplexer .
 
 ## Step 3
-Run the module and get the respective RTL outputs.
+Type the code in the created module and run the stimulation.
 
 ## Step 4
-Create university program(VWF) for getting timing diagram.
+After it get successfully runned  get the respective RTL outputs.
 
 ## Step 5
-Give the respective inputs for timing diagram and obtain the results.
+Create university program(VWF) for getting timing diagram.
+
+## Step 6
+Give the respective inputs for timing diagram .
+
+## Step 7
+Obtain the results.
 
 
 
-
-
-        
 # PROGRAM  
 ```
 /*
@@ -104,8 +107,6 @@ end
 endmodule
 
 ```
-
-
 
 
 # LOGIC DIAGRAM  (REFERENCE)
