@@ -111,15 +111,16 @@ endmodule
 ![muxrtl16](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/a9bd3e79-e316-453a-9c03-6d51287f0021)
 
 
+
 # TIMING DIAGRAM
 ![muxtt16](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/0a63af42-84da-4f5a-87a6-23425154dc3b)
+
 
 # TRUTH TABLE
 ![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/94575ee8-ae67-402d-9c22-a3f204a453a3)
 
 
+
 # RESULT
-
-
 Thus the implementation of  16 : 1 Multiplexer are verified
 
