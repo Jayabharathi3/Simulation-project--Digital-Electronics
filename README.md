@@ -3,14 +3,11 @@
 ## AIM :
    To implement 16:1  multiplexer using verilog and validate its outputs
    
-   
 ## HARDWARE REQUIRED : 
    – PC, Cyclone II , USB flasher  
    
-   
 ## SOFTWARE REQUIRED:
    Quartus prime  
-   
    
 ## THEORY :   
 
@@ -20,9 +17,7 @@
 
   The single-pole multi-position switch is a simple example of a non-electronic circuit of the multiplexer, and it is widely used in many electronic circuits. The multiplexer is used to perform high-speed switching and is constructed by electronic components.
   
-  
   ![image](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/1194d84e-6da0-464d-88ed-3e999ef33d28)
-  
   
   
 ### 16 to 1 Multiplexer
@@ -41,14 +36,10 @@ The control or select lines are usually binary and represent a unique combinatio
 
 The 16:1 multiplexer is often used in digital systems to select one out of 16 inputs and route it to the output based on the control signals provided by the select lines.
  
- 
-
    ![16 mux](https://github.com/Jayabharathi3/Simulation-project--Digital-Electronics/assets/120367796/626b76cb-d667-406f-a095-8c7cfd9e913b)
    
-   
-   
+ 
 # PROCEDURE  
-
 
 ## Step 1
 Create a project with required entities.
