@@ -58,11 +58,7 @@ After it get successfully runned  get the respective RTL outputs.
 Create university program(VWF) for getting timing diagram.
 
 ## Step 6
-Give the respective inputs for timing diagram .
-
-## Step 7
-Obtain the results.
-
+Give the respective inputs for timing diagram and get the results.
 
 
 # PROGRAM  
